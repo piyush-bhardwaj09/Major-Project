@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('../Images/index.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .centered-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  .centered-box h1 {
+    margin-bottom: 20px;
+  }
+  
+  .centered-box img {
+    width: 300px;
+    height: 450px;
+    margin-top: 20px;
+  }
+  
